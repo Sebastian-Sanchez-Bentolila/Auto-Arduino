@@ -19,6 +19,7 @@ Lisandro Giani, Luciano Lamberti, Lucas Paz, Uriel Lugo y Sebastian Sanchez (yo)
 Profesor Walter Cabañas.
 
 Este contiene 5 folders (carpetas). 
+
 -/Aplicacion (aca se ubica la aplicación de escritorio para controlar el auto Arduino)
 
 -/Conexion (La conexion eléctrica y esquemática del prototipo)
@@ -35,7 +36,7 @@ La aplicacion, puede presentar problemas debido a la compatibilidad de cada sist
 
 Primero deberas comprar todos los materiales. Luego montar el kit auto Arduino (solo los motores y la rueda loca). Por ultimo tenes que cablear la conexión eléctrica del prototipo.
 
-![Image text](https://github.com/Sebastian-Sanchez-Bentolila/Auto-Arduino/blob/main/Conexion/Diagrama_Electrico_esquemático,jpg)
+![Image text](https://github.com/Sebastian-Sanchez-Bentolila/Auto-Arduino/blob/main/Conexion/Diagrama_Electrico_esquemático.jpg)
 
 ![Image text](https://github.com/Sebastian-Sanchez-Bentolila/Auto-Arduino/blob/main/Conexion/Diagrama_bb.jpg)
 

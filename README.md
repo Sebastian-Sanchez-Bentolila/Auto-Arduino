@@ -38,7 +38,7 @@ Primero deberas comprar todos los materiales. Luego montar el kit auto Arduino (
 
 ![Image text](https://github.com/Sebastian-Sanchez-Bentolila/Auto-Arduino/blob/main/Conexion/Diagrama_Electrico_esquemático.jpg)
 
-![Image text](https://github.com/Sebastian-Sanchez-Bentolila/Auto-Arduino/blob/main/Conexion/Diagrama_bb.jpg)
+![Image text](https://github.com/Sebastian-Sanchez-Bentolila/Auto-Arduino/blob/main/Conexion/Diagrama_Electrico_bb.jpg)
 
 Luego deberar conectar el Arduino a la pc y subir el archivo 'programacion/programacion.ino'.
 

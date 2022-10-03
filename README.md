@@ -1,6 +1,6 @@
 # Auto Arduino
 
-![Image text](https://github.com/Sebastian-Sanchez-Bentolila/Auto-Arduino/blob/main/Fotografias/1)
+![Image text](https://github.com/Sebastian-Sanchez-Bentolila/Auto-Arduino/blob/main/Fotografias/1.jpg)
 
 ### Contenido
 
@@ -20,9 +20,13 @@ Profesor Walter Cabañas.
 
 Este contiene 5 folders (carpetas). 
 -/Aplicacion (aca se ubica la aplicación de escritorio para controlar el auto Arduino)
+
 -/Conexion (La conexion eléctrica y esquemática del prototipo)
+
 -/Fotografias (Imagenes JPG del auto)
+
 -/Materiales (Un excel con los materiales usados y su precio)
+
 -/Programacion (Programación del Auto Arduino)
 
 La aplicacion, puede presentar problemas debido a la compatibilidad de cada sistema en particular. 
@@ -31,9 +35,9 @@ La aplicacion, puede presentar problemas debido a la compatibilidad de cada sist
 
 Primero deberas comprar todos los materiales. Luego montar el kit auto Arduino (solo los motores y la rueda loca). Por ultimo tenes que cablear la conexión eléctrica del prototipo.
 
-![Image text](https://github.com/Sebastian-Sanchez-Bentolila/Auto-Arduino/blob/main/Conexion/Diagrama_Electrico_esquemático)
+![Image text](https://github.com/Sebastian-Sanchez-Bentolila/Auto-Arduino/blob/main/Conexion/Diagrama_Electrico_esquemático,jpg)
 
-![Image text](https://github.com/Sebastian-Sanchez-Bentolila/Auto-Arduino/blob/main/Conexion/Diagrama_bb)
+![Image text](https://github.com/Sebastian-Sanchez-Bentolila/Auto-Arduino/blob/main/Conexion/Diagrama_bb.jpg)
 
 Luego deberar conectar el Arduino a la pc y subir el archivo 'programacion/programacion.ino'.
 
@@ -49,4 +53,5 @@ Aunque este bien podria no funcionar, debido a la compatibilidad entre sistemas.
 ### Link
 
 Aplicacion\\iconos\\auto.ico : https://icon-icons.com/es/icono/mini-auto-icono-cruz-ingenio-zwart/89418
+
 Aplicacion\\imagenes\\auto.png : https://pixabay.com/es/photos/r%c3%a1pido-velocidad-carreras-1281628/

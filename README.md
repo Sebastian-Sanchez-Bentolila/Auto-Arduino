@@ -10,6 +10,7 @@ Este proyecto contiene solo una rama: main.
 
 - Arduino
 - Python
+- C++
 
 ### Sobre el proyecto
 

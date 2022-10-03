@@ -172,7 +172,7 @@ void botones(char caracter){
   }
 
   else{
-    //Distancia -20 cm, led rojo de advertencia
+    //Distancia -20 cm
     BT.println("La distancia con otro objeto es menor a 20 cm!");
     Serial.println("La distancia con otro objeto es menor a 20 cm!");
   }

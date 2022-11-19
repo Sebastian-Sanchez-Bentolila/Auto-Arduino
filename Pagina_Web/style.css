@@ -1,0 +1,156 @@
+/*Hoja de estilos CSS*/
+
+/*HTML*/
+html {
+    font-family: 'Lucida Sans';
+}
+
+/*Body - Cuerpo de la página WEB*/
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+/*Encabezado de la página WEB*/
+header {
+    background-color: #00B9FF;
+    padding: 1rem 1rem;
+}
+
+/*Navegación entre páginas WEB*/
+#boton_menu{
+    background-color:#00B9FF;
+    color:white;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+/*Imagen del auto arduino - centrado a la izquierda*/
+#img_auto {
+    width: 300px;
+    float: left;
+    margin: 1rem;
+    border: 5px solid black;
+}
+
+/*Imagen del equipo (ABOUT) - centrado a la derecha*/
+#img_equipo {
+    width: 600px;
+    float: right;
+    margin: 3rem;
+    border: 5px solid black;
+}
+
+/*Imagen de los anexos - Informe Técnico*/
+#img_anexo {
+    width: 600px;
+    margin: 2rem;
+    border: 5px solid black;
+}
+
+/*h1 ---> Auto Arduino*/
+h1 {
+    /*Letra*/
+    color: #ffff;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 3px 5px 5px black;
+}
+
+/*h2 ---> Títulos*/
+h2 {
+    /*Letra*/
+    color: black;
+    font-size: 20px;
+}
+
+/*h3 ---> Resumen*/
+h3 {
+    /*Letra*/
+    margin: 1rem;
+    color: black;
+    font-size: 23px;
+}
+
+/*p*/
+/*Párrafo*/
+p.parrafo {
+    /*Letra*/
+    color: #808080;
+}
+
+/*Pie de foto*/
+p.pie_foto{
+    /*Letra*/
+    color: black;
+    margin: 2rem;
+}
+
+/*Links*/
+a:link {
+    transition: color 0.3s ease;
+    color: blueviolet;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: red;
+}
+
+/*Tablas*/
+table.lista_materiales, th.lista_materiales, td.lista_materiales {
+    /*Borde del cuadro*/
+    border: 1px solid black;
+    font-family: 'Lucida Sans';
+}
+th {
+    /*Letra*/
+    background-color: #72FF03;
+    color: black;
+}
+tr:hover {
+    /*Fondo gris, si pasas el mouse*/
+    background-color: #aaa;
+    cursor: pointer;
+}
+tr.boton:hover {
+    /*Fondo menu de navegación*/
+    background-color: #efefef;
+}
+
+/*Pie de página*/
+footer {
+    background-color: #00B9FF;
+    padding: 1rem 1rem;
+}
+footer section {
+    float: right;
+}
+footer p {
+    margin: 0;
+}
+
+/*Mapas de google maps*/
+.Mapas{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.Mapas iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*Código de arduino*/
+.Codigo iframe{
+    margin: 4rem;
+}
+

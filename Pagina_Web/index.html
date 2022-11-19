@@ -1,0 +1,152 @@
+<!--Página Web HTML - Auto Arduino-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Arduino</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <h1>Auto Arduino</h1>
+        <br><br>
+    </header>
+    
+    <section>
+        <!--Navegación entre páginas-->
+        <div align='center'>
+			<table id="menu">
+				<tr class="boton">
+					<td>
+						<a href="index.html"><input type="button" id="boton_menu" value="Informe Técnico"></a>
+					</td>
+					<td>
+						<a href="about.html"><input type="button" id="boton_menu" value="Sobre Nosotros"></a>
+					</td>
+                    <td>
+						<a href="localizacion.html"><input type="button" id="boton_menu" value="Geolocalización"></a>
+					</td>
+                    <td>
+						<a href="pdf.html"><input type="button" id="boton_menu" value="PDF"></a>
+					</td>
+                    <td>
+						<a href="codigo.html"><input type="button" id="boton_menu" value="Código"></a>
+					</td>
+				</tr>
+			</table>
+            <br>
+		</div>
+
+        <!--Resumen y Foto del auto arduino-->
+        <article>
+            <br>
+            <img src="imagenes/auto_arduino.jpg" width="300" id="img_auto"/>
+            <h3> En el siguiente proyecto se construyó un auto con la placa electrónica de Arduino. Este funciona mediante una aplicación de escritorio, y permite moverse en todas direcciones, solo si la distancia con potenciales objetos sea mayor a 20 cm.  </h3>
+            <br>
+            <h3> Palabras clave: </h3>
+            <br>
+            <h3> Arduino-Auto-Protoboard-Programación-Python-C++.</h3>
+            <br><br><br><br>
+        </article>
+
+        <!--Introducción del proyecto-->
+        <article>
+            <h2>Introducción</h3>
+            <p class="parrafo">El presente trabajo se abarco en un tiempo de aproximadamente 1 mes. Los objetivos generales, que fueron planteados por el profesor, son:
+                -Aprobar la catedra de informática VI de la Escuela Tegnologica Ingeniero Giudici (ETIG), dictada por el profesor Walter Cabañas (analista en sistemas).
+                -Exponerlo en la feria de las 4 estaciones de la facultad de ingeniera (Universidad Nacional de Lomas de Zamora). 
+                Los objetivos específicos son adentrarse más en el tema de la robótica y aprender sobre el Arduino. Esto gracias a la experiencia práctica que se adquiriría al realizar este proyecto.
+                Si se quiere mirar el proyecto más a fondo puede entrar a:</p>
+            <a href="https://github.com/Sebastian-Sanchez-Bentolila/Auto-Arduino">GitHub</a>
+        </article>
+
+        <!--Desarrollo del proyecto-->
+        <article>
+            <h2>Desarrollo</h3>
+            <p class="parrafo">El siguiente trabajo consta de tres partes: Programación; Aplicación y Construcción.
+                La programación del auto fue realizado con arduino. Consta de 179 líneas de código. Esta hecho de manera ordenada con funciones y sencilla de leer (hay comentarios que especifican que hace cada cosa). Se usaron del Arduino Uno 8 pines digitales y 2 pines PMW (para el ENA y ENB del driver ‘Puente H L298N’). Este funciona enviándole por bluetooth los comandos típicos de los juegos de ordenador AWSD (izquierda, adelante, atrás y derecha). 
+                A la par que hacíamos eso, empezamos a hacer la aplicación controladora con python e hicimos también el instalador ‘SETUP.exe’ con C++. Este realizado con POO (programación orientada a objetos), está escrito de forma estructurada para ahorrar recursos. Con respecto al instalador, este accede al cmd para descargar una librería necesaria la cual hace falta (el comando usado es ‘pip install pyserial’). 
+                Por último para construir el prototipo de necesito de un capital de $11.135 pesos argentinos (a la fecha de 13/10/2022) sin contar la computadora para escribir la programación ni los gastos de energía eléctrica usados (corriente alterna). La conexión eléctrica del auto se realizó con Fritzing. Se necesito también contar con un destornillador con punta chico, tardamos 2 días en montarlo. 
+                Luego para poder alimentar con corriente al arduino, se uso una batería de 
+                9v con un adaptador Jack.</p>
+            <br>
+            <p class="parrafo">Los resultados de este fueron un auto que se movía, pero este se le dificultaba por el peso del 
+                mismo.</p>
+
+            <!--Tabala con la lista de materiales-->
+            <table class="lista_materiales">
+                <tr>
+                    <th class="lista_materiales">Cantidad</th>
+                    <th class="lista_materiales">Material</th>
+                    <th class="lista_materiales">Precio</th>
+                </tr>
+                <tr>
+                    <td class="lista_materiales">1</td>
+                    <td class="lista_materiales">Protoboard 400 puntos</td>
+                    <td class="lista_materiales">$600</td>
+                </tr>
+                <tr>
+                    <td class="lista_materiales">1</td>
+                    <td class="lista_materiales">Arduino Uno</td>
+                    <td class="lista_materiales">$3.500</td>
+                </tr>
+                <tr>
+                    <td class="lista_materiales">1</td>
+                    <td class="lista_materiales">Kit auto Arduino</td>
+                    <td class="lista_materiales">$4.000</td>
+                </tr>
+                <tr>
+                    <td class="lista_materiales">4</td>
+                    <td class="lista_materiales">Pilas AA</td>
+                    <td class="lista_materiales">$500</td>
+                </tr>
+                <tr>
+                    <td class="lista_materiales">1</td>
+                    <td class="lista_materiales">Modulo Bluetooth HC-05</td>
+                    <td class="lista_materiales">$1.035</td>
+                </tr>
+                <tr>
+                    <td class="lista_materiales">1</td>
+                    <td class="lista_materiales">Puente H L298N</td>
+                    <td class="lista_materiales">$1.000</td>
+                </tr>
+                <tr>
+                    <td class="lista_materiales">1</td>
+                    <td class="lista_materiales">Sensor de Ultrasonido HC-SR04</td>
+                    <td class="lista_materiales">$500</td>
+                </tr>
+            </table>
+        </article>
+
+        <!--Conclusión-->
+        <article>
+            <h2>Conclusión</h3>
+            <p class="parrafo">Se puede decir que este fue un trabajo integrador bastante novedoso y también el primero de la cátedra. Se han aprendido muchos contenidos a lo largo del año que sirvió para esto.  
+                Con respecto a los objetivos generales, se logro aprobar la materia con una nota de 10 en el trabajo practico integrador y también lo expusimos en la feria donde estuvimos con otros grupos explicando a chicos el funcionamiento del auto y respondiendo sus dudas. 
+                Como recomendaciones, hay dos. La primera es que habría que cambiarle la fuente de alimentación del driver ya que le falto más potencia para mover los motores y este provocaba que el auto se estancara. Por último hay que cambiar la aplicación ya que es incompatible
+                con muchos sistemas debido a que la librería no está muy optimizada, por lo que es muy seguro que no 
+                termine andando la conexión bluetooth con el arduino. </p>
+        </article>
+
+        <!--Anexos-->
+        <article>
+            <h2>Anexos</h3>
+            <img src="imagenes/Diagrama_Electrico_bb.jpg" id="img_anexo" width="600"/>
+            <p class="pie_foto">Conexión eléctrica</p>
+            <img src="imagenes/Diagrama_Electrico_esquemático.jpg" id="img_anexo" width="600"/>
+            <p class="pie_foto">Conexión eléctrica esquemática</p>
+        </article>
+    </section>
+
+    <!--Pie de Página-->
+    <footer>
+        <section>
+            <a href="mailto:sebastiansb3004@gmail.com">Contáctenos Aquí</a>
+        </section>
+        <p>Escuela Tegnológica Ingeniero Giudici</p>
+    </footer>
+</body>
+</html>

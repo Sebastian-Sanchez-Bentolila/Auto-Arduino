@@ -21,17 +21,20 @@ Profesor Walter Cabañas.
 
 Este contiene 5 folders (carpetas). 
 
--/Aplicacion (aca se ubica la aplicación de escritorio para controlar el auto Arduino)
+-/Aplicacion* (aca se ubica la aplicación de escritorio para controlar el auto Arduino)
 
--/Conexion (La conexion eléctrica y esquemática del prototipo)
+-/Conexion (La conexion eléctrica y esquemática del prototipo con Fritzing)
 
 -/Fotografias (Imagenes JPG del auto)
 
 -/Materiales (Un excel con los materiales usados y su precio)
 
+-/Pagina_Web (Una pagina con HTML y CSS con informacion acerca del proyecto)
+
 -/Programacion (Programación del Auto Arduino)
 
-La aplicacion, puede presentar problemas debido a la compatibilidad de cada sistema en particular. 
+
+*La aplicacion, puede presentar problemas debido a la compatibilidad de cada sistema en particular. 
 
 ### ¿Cómo contruirlo y descargar la aplicación de escritorio?
 
